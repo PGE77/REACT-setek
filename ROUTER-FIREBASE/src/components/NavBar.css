@@ -1,0 +1,25 @@
+nav a {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+nav a.active {
+  text-decoration: underline;
+  color: #e50914;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+

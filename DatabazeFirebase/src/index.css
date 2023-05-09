@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #141414;
+  color: #e5e5e5;
+}
+
+.all-movies {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.one-movie {
+  font-size: 20px;
+  border: 2px solid #e50914;
+  max-width: 450px;
+  padding: 7px 10px 15px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.one-movie p {
+  margin: 0px 0px 10px 0px;
+}
+.one-movie button {
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: #e5e5e5;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.all-movies form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.all-movies form input[type="text"],
+.all-movies form input[type="number"] {
+  font-size: 20px;
+  padding: 5px 10px;
+  outline: none;
+  border: 2px solid #e50914;
+  background: transparent;
+  color: white;
+}
+.all-movies form label {
+  margin: 10px 0px 5px 0px;
+  font-size: 20px;
+}
+.all-movies form input[type="submit"] {
+  font-size: 16px;
+  background-color: #e50914;
+  color: #e5e5e5;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upravit-form {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  margin-top: 25px;
+  margin-bottom: 10px !important;
+}
+.upravit-form button {
+  width: 100%;
+}
+
+.upravit-form input {
+  margin-bottom: 15px;
+}
+
+.Upravujete{
+background:white !important;
+color:black  !important;
+cursor:not-allowed !important;
+
+}

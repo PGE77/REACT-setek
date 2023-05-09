@@ -1,0 +1,28 @@
+*{
+  box-sizing:border-box;
+
+}
+
+body{
+margin:0px ;
+background-color:#141414;
+padding:0px 20px;
+}
+
+#result{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  flex-direction:row;
+  flex-wrap:wrap;
+
+
+}
+
+.all-questions{
+  color:#e5e5e5;
+
+
+}
+

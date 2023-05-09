@@ -1,0 +1,11 @@
+.myicon{
+font-size:50px;
+color:red;
+
+transition:color 1s ease;
+
+}
+.myicon:hover{
+color:green;
+
+}

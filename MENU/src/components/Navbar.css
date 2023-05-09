@@ -1,0 +1,99 @@
+/* do 700px */
+nav {
+  background-color: #141414;
+}
+.nav-header img {
+  width: 110px;
+  margin-left: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  min-height: 70px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav-list ul {
+  margin-right: 50px;
+}
+.nav-list ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.nav-list ul li a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.nav-header button {
+  display: none;
+}
+
+/* od 700px a méně */
+@media screen and (max-width: 700px) {
+  .navigation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .nav-header {
+    width: 100%;
+  }
+
+  .nav-header button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hamburger-icon {
+    color: #e5e5e5;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  .nav-list ul li {
+    margin-left: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  /* clasy pro react*/
+
+  .hide {
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: all 0.1s linear;
+  }
+
+  .show {
+    height: 150px;
+    transition: all 0.1s linear;
+    background-color: #141414;
+    width: 100%;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .hide-i {
+    display: none !important;
+  }
+
+  .show-i {
+    display: block;
+  }
+}

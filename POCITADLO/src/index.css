@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.counter {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(6, 74, 80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.counter h2 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.counter button {
+background-color:rgb(3,33,19);
+color:white;
+padding:5px 10px;
+border:none;
+border-radius:5px;
+margin-top:5px;
+width:100px;
+}

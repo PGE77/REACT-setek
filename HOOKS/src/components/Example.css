@@ -1,0 +1,22 @@
+.text-button-changer {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  max-width:250px;
+}
+
+.text-button-changer h2 {
+  text-align: center;
+  color: #91bbf2;
+}
+
+.text-button-changer button {
+    text-align: center;
+    background-color: #035AA6;
+    color:#91BBF2;
+    border:none;
+    margin:5px 0px;
+    padding:5px 15px;
+    
+  }
+  

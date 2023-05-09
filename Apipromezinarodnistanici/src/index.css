@@ -1,0 +1,20 @@
+*{
+box-sizing:border-box;
+
+
+}
+
+body {
+text-align:center;
+font-size:30px;
+margin:0px;
+font-family:Arial;
+}
+
+
+iframe{
+border:none;
+width:100%;
+
+
+}
